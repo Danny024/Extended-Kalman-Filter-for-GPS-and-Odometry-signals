@@ -1,4 +1,6 @@
 # Extended-Kalman-Filter-for-GPS-and-Odometry-signals
+
+
 ## Background
 Single sensor has limited capabilities. In the context of robot localisation, for example, robot odometry drifts over time. Although GPS provides global positions, it can only achieve moderate accuracy locally and suffers from noises due to building occlusion, dense trees etc. Moreover, normal GPS only has about several meters accuracy, which is not enough for many robotic applications. Therefore, recursive Bayes filter based multi-sensor fusion is often used to fuse odometry with GPS for outdoor mobile robotics, reducing the drifts of odometry and smoothing GPS locations.
 
