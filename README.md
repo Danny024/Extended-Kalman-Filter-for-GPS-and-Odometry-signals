@@ -5,7 +5,7 @@ Single sensor has limited capabilities. In the context of robot localisation, fo
 ### Dependencies
 ROS Noetic
 <br></br>
-Ubunty 20.04
+Ubuntu 20.04
 
 ### Objective
 This Assignment focuses on developing an Extended Kalman filter (EKF) algorithm to fuse robot visual odometry and GPS for accurate robot localisation. It aims to consolidate the lectures by practicing and understanding how to design and tune a filter to solve a real-world problem. Since this Assignment is provided with some real robot data, the algorithms developed can be easily tested and deployed on real robots.
