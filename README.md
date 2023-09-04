@@ -4,6 +4,7 @@ Single sensor has limited capabilities. In the context of robot localisation, fo
 
 ### Dependencies
 ROS Noetic
+<br></br>
 Ubunty 20.04
 
 ### Objective
@@ -14,9 +15,9 @@ This Assignment focuses on developing an Extended Kalman filter (EKF) algorithm 
 [Robot Documentation](https://robotcar-dataset.robots.ox.ac.uk/documentation/)
 
 ## Rostopics
-1. Visual odometry topic ~/visual_odometry~
-2. GPS topic ~/gps~
-3. Camera image topic ~/image_centre~
+1. Visual odometry topic _/visual_odometry_
+2. GPS topic _/gps_
+3. Camera image topic _/image_centre_
 
 ### Dependencies
 [ROS Geonav](https://wiki.ros.org/geonav_transform) to convert latitude and longitude into XYZ coordinates.
