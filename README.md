@@ -3,9 +3,9 @@
 Single sensor has limited capabilities. In the context of robot localisation, for example, robot odometry drifts over time. Although GPS provides global positions, it can only achieve moderate accuracy locally and suffers from noises due to building occlusion, dense trees etc. Moreover, normal GPS only has about several meters accuracy, which is not enough for many robotic applications. Therefore, recursive Bayes filter based multi-sensor fusion is often used to fuse odometry with GPS for outdoor mobile robotics, reducing the drifts of odometry and smoothing GPS locations.
 
 ### Dependencies
-ROS Noetic
+[ROS Noetic](http://wiki.ros.org/noetic)
 <br></br>
-Ubuntu 20.04
+[Ubuntu 20.04](https://releases.ubuntu.com/focal/)
 
 ### Objective
 This Assignment focuses on developing an Extended Kalman filter (EKF) algorithm to fuse robot visual odometry and GPS for accurate robot localisation. It aims to consolidate the lectures by practicing and understanding how to design and tune a filter to solve a real-world problem. Since this Assignment is provided with some real robot data, the algorithms developed can be easily tested and deployed on real robots.
